@@ -1,4 +1,6 @@
 # hack-wifi
-Vamos a probar romper la contraseña de un red wifi con la herramienta "[Wifislax](https://www.wifislax.com/category/download/nuevas-versiones/)". Es necesario que tu equipo lleva **adaptador inalámbrico** para este práctica.
+Vamos a probar romper la contraseña de un red wifi con "[Wifislax](https://www.wifislax.com/category/download/nuevas-versiones/)".Es un sistema basado en Unix con unas herramientas de manejo de redes. 
 
-Creamos un pen de arranque con el iso de Wifislax y arrancamos la máquina con el pen.
+Para este práctica necesitamos **adaptador inalámbrico** en tu PC. 
+Con cualquier herramienta para crear usb de arranque (ej: [rufus](https://rufus.ie/)) creamos un usb de arranque con el iso de wifislax. Cuando termines encedemos tu pc con el usb de arranque.
+
