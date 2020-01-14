@@ -9,4 +9,5 @@ Con cualquier herramienta para crear usb de arranque (ej: [rufus](https://rufus.
 Entramos al sistema con el 1º opción.
 
 ![img wifislax](wifislax1.png)
-Abrimos la herramienta **minidwep**.
+
+Vamos a usar la herramienta aircrack, abrimos el terminal.
