@@ -22,6 +22,8 @@ Nos indica el comando que el proceso **1044** **1107** pueden causar problemas, 
 
 Una vez iniciado el interfaz **wlan0** se convierte en **wlan0mon**, podemos comprobarlo con ```ifconfig```.
 
+![refresca la página para cargar el imágen](imagen/kali3.png)
 
+Nos mostrará el BSSID(mac) de los routers o PA, 
 
 ``````
