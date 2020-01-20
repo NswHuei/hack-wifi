@@ -31,6 +31,10 @@ Nos mostrará el BSSID(mac) de los routers o PA, intensidad de señal, modo de c
 
 ![refresca la página para cargar el imágen](imagen/kali4.png)
 
+![refresca la página para cargar el imágen](imagen/kali5.png)
+
+![refresca la página para cargar el imágen](imagen/kali6.png)
+
 
 
 ``````
