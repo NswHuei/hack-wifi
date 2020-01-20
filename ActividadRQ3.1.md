@@ -41,7 +41,7 @@ Usamos el comando ```airodump-ng``` para coger los paquetes del red "víctima".
 ```-w```El lugar donde vamos a guardar los paquetes capturado.
 Una vez teniendo suficiente paquetes podemos empezar a "hackear" la contraseña.
 
-Con el comando ```aireplay-ng``` aceleramos el paso de capturar paquetes. Para más información consulta al [Aireplay](https://www.aircrack-ng.org/doku.php?id=es:aireplay-ng).
+Con el comando ```aireplay-ng``` aceleramos el paso de capturar paquetes. Para más información consulta al [Aireplay](https://www.aircrack-ng.org/doku.php?id=es:aireplay-ng). Cuando llevas suficiente paquetes pulsa ```ctrl+c``` para terminar.
 
 ![refresca la página para cargar el imágen](imagen/kali5.png)
 
