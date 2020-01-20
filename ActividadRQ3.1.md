@@ -16,6 +16,7 @@ Nos aparecerá el interfaz wlan con el controladore del red wifi que tenemos ins
 
 Una vez comprobado que la herramienta es compatible con nuestro controlador empezamos a monitoriza el interfaz wlan0. 
 >airmon-ng start wlan0
+
 Nos indica el comando que el proceso **1044** **1107** pueden causar problemas, lo apagamos con el comando ```kill```.
 >kill -9 1044
 
