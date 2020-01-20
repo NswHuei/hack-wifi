@@ -14,6 +14,12 @@ Nos aparecerá el interfaz wlan con el controladore del red wifi que tenemos ins
 
 ![refresca la página para cargar el imágen](imagen/kali2.png)
 
-Una vez comprobado que la herramienta es compatible con nuestro controlador empezamos a monitoriza el interfaz wlan0.
+Una vez comprobado que la herramienta es compatible con nuestro controlador empezamos a monitoriza el interfaz wlan0. Nos indica el comando que el proceso ```1044``` ```1107``` pueden causar problemas, lo apagamos con el comando ```kill```
+>kill -9 1044
+>kill -9 1107
+
+Una vez iniciado el interfaz ```wlan0 ``` se convierte en ```wlan0mon```, podemos comprobarlo con ifconfig.
+
+
 
 ``````
