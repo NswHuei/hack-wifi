@@ -29,4 +29,8 @@ Escaneamos el red wifi con el comando:
 
 Nos mostrará el BSSID(mac) de los routers o PA, intensidad de señal, modo de cifrado y el nombre del dispositivo(ESSID). Una vez encontrado el red que queremos atacar terminamos el escaneo con ```ctrl+c```
 
+![refresca la página para cargar el imágen](imagen/kali4.png)
+
+
+
 ``````
