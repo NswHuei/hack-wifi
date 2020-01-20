@@ -45,6 +45,7 @@ Con el comando ```aireplay-ng``` aceleramos el paso de capturar paquetes.
 ![refresca la página para cargar el imágen](imagen/kali5.png)
 
 >aireplay-ng -3 -b --a E8:DE:27:2F:84:CA wlan0mon 
+
 ![refresca la página para cargar el imágen](imagen/kali6.png)
 
 >airodump-ng -1 0 -a --bssid E8:DE:27:2F:84:CA wlan0mon
