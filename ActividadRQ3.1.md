@@ -1,4 +1,4 @@
-# hack-wifi
+# hack-wifi WEP
 Vamos a probar romper la contraseña de un red wifi con "[Kali](https://www.kali.org/downloads/)".Es un sistema basado en Unix con unas herramientas de manejo de redes. 
 
 Para este práctica necesitamos **adaptador inalámbrico** en tu PC. 
