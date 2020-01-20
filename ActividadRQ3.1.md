@@ -5,4 +5,13 @@ Con cualquier herramienta para crear usb de arranque (ej: [rufus](https://rufus.
 
 Arrancamos el equipo desde live USB y entramos al sistema en live system. Si tienes ya instalada el Kali entras directamente. En el caso que interesa hacer esta práctica en máquinas virtuales necesita un adaptadow wifi de USB para poder hacer la práctica correctamente.
 
-![refresca la página para cargar el imágen](imagen/kali11.png)
+![refresca la página para cargar el imágen](imagen/kali1.png)
+Abrimos el terminal e introducimos el comando:
+>airmon-ng
+
+Nos aparecerá el interfaz wlan con el controladore del red wifi que tenemos instalado y reconocido por la herramienta. Si no te aparece nada pueden ser que tu controlador no soporta la función de monitorizar el red wifi.
+
+![refresca la página para cargar el imágen](imagen/kali2.png)
+Una vez comprobado que la herramienta es compatible con nuestro controlador empezamos a monitoriza el interfaz wlan0.
+
+``````
