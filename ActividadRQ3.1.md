@@ -24,6 +24,9 @@ Una vez iniciado el interfaz **wlan0** se convierte en **wlan0mon**, podemos com
 
 ![refresca la página para cargar el imágen](imagen/kali3.png)
 
-Nos mostrará el BSSID(mac) de los routers o PA, 
+Escaneamos el red wifi con el comando:
+>airodump-ng wlan0mon
+
+Nos mostrará el BSSID(mac) de los routers o PA, intensidad de señal, modo de cifrado y el nombre del dispositivo(ESSID). Una vez encontrado el red que queremos atacar terminamos el escaneo con ```ctrl+c```
 
 ``````
