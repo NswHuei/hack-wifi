@@ -33,6 +33,7 @@ Y empezamos a descifrar la clave.
 Y esperamos a que se descifre la clave. 
 
 ![refresca la página para cargar el imágen](imagen/wpa4.png)
+
 Ya he conseguido la clave del red wifi cifrado por wpa.
 
 Además de descifrar con el **CPU** podemos usar nuestro **GPU** para descifrar claves con el comando **hashcat**.Para ello necesita tener instalado el driver de tu **GPU**.
