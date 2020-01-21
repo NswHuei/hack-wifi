@@ -26,7 +26,7 @@ Usamos el comando **wash** para filtrar los wifi con WPS habilitado.
 
 Por lo último ejecutamos el comando **reaver**, viene preinstalado en Kali. Y esperamos que se termine de encontrar la clave.
 
->reaver -i wlan1mon -b 24:7F:20:02:63:B6 -vv
+>reaver -i wlan1mon -b 24:7F:20:02:63:B6 -v
 
 ```-i``` Interfaz del wlan.
 
