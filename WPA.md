@@ -27,7 +27,9 @@ Y empezamos a descifrar la clave.
 >aircrack-ng -a2 -b 24:7F:20:02:63:B6 -w /usr/share/wordlists/rockyou.txt ./*.cap
 
 ```-a2```El cifrado de WPA.
+
 ```-b``` El bssid del router
+
 ```-w``` La ruta del diccionario.
 
 Y esperamos a que se descifre la clave. 
