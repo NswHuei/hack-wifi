@@ -41,7 +41,7 @@ Usamos el comando ```airodump-ng``` para coger los paquetes de la red "víctima"
 ```-w```El lugar donde vamos a guardar los paquetes capturados.
 Una vez teniendo suficiente paquetes podemos empezar a "hackear" la contraseña.
 
-Con el comando ```aireplay-ng``` aceleramos el paso de capturar paquetes(**Beacons** y **Data**). Para más información consulta al [Aireplay](https://www.aircrack-ng.org/doku.php?id=es:aireplay-ng). Cuando llevas suficiente paquetes pulsa ```ctrl+c``` para terminar.
+Con el comando ```aireplay-ng``` aceleramos el paso de capturar paquetes(**Beacons** y **Data**). Para más información consulta al [Aireplay](https://www.aircrack-ng.org/doku.php?id=es:aireplay-ng). 
 
 ![refresca la página para cargar la imágen](imagen/kali5.png)
 
@@ -53,8 +53,14 @@ Con el comando ```aireplay-ng``` aceleramos el paso de capturar paquetes(**Beaco
 
 ![refresca la página para cargar la imágen](imagen/kali7.png)
 
+Cuando capturamos suficiente paquetes (5000+) pulsa ```ctrl+c``` y empezamos a descifrar la clave con el comando ```aircrack```.
+>aircrack-ng -b E8:DE:27:2F:84:CA ./*.cap
+
+```-b```La mac del router.
+
 ![refresca la página para cargar la imágen](imagen/kali18.png)
 
+Y ya lo tenemos la clave del wifi descifrada. Como podéis ver el cifrado WEP no es seguro, tenemos que evitar usarlo.
 
 [Volver al Página de inicio](https://nswhuei.github.io/hack-wifi/)
 
