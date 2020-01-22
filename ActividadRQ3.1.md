@@ -53,7 +53,7 @@ Con el comando ```aireplay-ng``` aceleramos el paso de capturar paquetes(**Beaco
 
 ![refresca la página para cargar la imágen](imagen/kali7.png)
 
-
+![refresca la página para cargar la imágen](imagen/kali18.png)
 
 
 [Volver al Página de inicio](https://nswhuei.github.io/hack-wifi/)
